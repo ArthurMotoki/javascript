@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nascionalidade</title>
+    <link rel="stylesheet" href="ex009.css">
+</head>
+
+
+<body>  
+    <header>
+        <h1>Descubra sua Nascionalidade</h1>
+        <h2>Você é brasileiro ou estrangeiro?</h2>
+    </header>
+
+    <main>
+
+        <h2>Lorem, ipsum dolor!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illum voluptatem ea distinctio, dolorem aliquam atque quas ad eos autem ratione iste molestiae assumenda! Rem quis inventore nihil quisquam provident? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus error eveniet excepturi dicta est consequatur esse, ab dolorum vero mollitia maxime accusantium quidem, ex quod voluptatum! Dolorum magnam distinctio aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum id provident maxime fuga deserunt quam at dicta iure voluptates animi eaque fugiat, architecto ducimus magni perferendis voluptatum molestiae commodi labore.</p> 
+
+        <img class="imgbr" src="Nova pasta/br.png" alt="">
+        
+        <br>
+
+        <p class="input">Insira o país em que você nasceu:<input type="text" name="txtpaís" id="txtpaís">
+        <input type="button" value="Verificar" onclick="calcular()"></p>
+        
+        <div id="res">
+
+        </div>
+
+        <br>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur voluptas iure eius explicabo accusantium aliquam nemo aspernatur totam debitis. Voluptate molestias fuga non mollitia ea eum totam libero doloribus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ratione, repudiandae earum saepe reiciendis aut blanditiis et. Sit veniam, vel ullam ad corrupti, vitae impedit, dolorem at natus error odio!</p>
+        <br>
+        <h3>Brasil Porra!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere earum quae veniam, esse corrupti voluptatibus quaerat ut, doloribus animi eaque architecto rerum, dicta labore accusantium dolores voluptas aperiam eius officia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, labore fuga! Beatae magni, velit molestias ex sapiente consequatur dolorem, quod necessitatibus tempore ducimus optio dolor odio autem cupiditate nisi voluptate?</p>
+        <br>
+        <h3>Estrangeiro</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, commodi? Ab, quisquam velit, fugiat totam delectus tenetur minima dolore odit fuga ullam corrupti rerum eligendi veniam perspiciatis iure quos reprehenderit?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam corrupti, asperiores eveniet a inventore pariatur numquam consequatur dolor ipsam excepturi ab eos exercitationem consectetur animi, voluptatem assumenda magni autem.</p>
+    </main>
+
+    <footer>
+        <p>Created By MotoKiDEv</p>
+    </footer>
+
+    <script>
+        function calcular() {
+            var txtp = document.getElementById('txtpaís')
+            var res  = document.getElementById('res')
+            var país = String(txtp.value)
+            res.innerHTML = `Vocé nasceu no(a) ${país}! `
+            
+            if(país == 'Brasil' || país == 'brasil' ) {
+                res.innerHTML += `Você é brasileiro!`
+            } else {
+                res.innerHTML += `Você é estrangeiro(a)!`
+            }
+
+        }
+    </script>
+    
+
+
+</body>
+</html>

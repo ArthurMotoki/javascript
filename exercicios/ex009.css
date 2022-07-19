@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(28, 106, 252, 0.884);
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 125), rgba(125, 255, 125, 0.623));
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    
+}
+
+header h2 {
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 350px;
+    background-color: white;
+    
+}
+
+main p {
+    text-align: justify;
+}
+
+main h2 {
+    text-align: center;
+}
+
+img.imgbr {
+    margin: auto;
+    display: block;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: darkgrey;
+}
+
+footer p {
+    text-align: center;
+}
+
