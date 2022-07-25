@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: aqua;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.192);
+}
+
+div{
+    text-align: center; 
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style:italic;
+}
