@@ -3,8 +3,8 @@ function  base() {
     var img  = document.getElementById('img')
     var dtn  = document.getElementById('dtn')
     var data = new Date()
-    //var hora = data.getHours()
-    var hora = 19
+    var hora = data.getHours()
+    //var hora = *
     var min  = data.getMinutes()
     msg.innerHTML = `Agora são exatos ${hora}:${min}!`
     if (hora >= 5 && hora <= 12) {
