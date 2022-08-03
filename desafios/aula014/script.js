@@ -31,7 +31,7 @@ function verificar() {
             if (idade >= 0 && idade < 10 ) {
                 //Criança
                 img.setAttribute('src','imagens/kid-f.png')
-            } else if (idade < 21) {
+            } else if (idade < 24) {
                 //Jovem
                 img.setAttribute('src','imagens/jovem-f.png')
             } else if (idade < 60) {
